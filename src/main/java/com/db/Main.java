@@ -27,7 +27,7 @@ public class Main {
             String createTableSQL = "CREATE TABLE IF NOT EXISTS utilisateurs ("
                     + "id INT AUTO_INCREMENT PRIMARY KEY, "
                     + "Nom VARCHAR(20) NOT NULL, "
-                    + "postNom VARCHAR(20) NOT NULL, "
+                    + "PostNom VARCHAR(20) NOT NULL, "
                     + "Prenom VARCHAR(10) NOT NULL"
                     + ")";
             
