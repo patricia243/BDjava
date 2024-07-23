@@ -40,6 +40,7 @@ public class Main {
                     + "('Tshibola', 'bayamba', 'Tichaou'), "
                     + "('Lukanda', 'Luboya', 'Joe'), "
                     + "('kaisa', 'Mumba', 'Babi')";
+
             
             statement.executeUpdate(insertDataSQL);
             System.out.println("Données insérées avec succès !");
@@ -47,6 +48,7 @@ public class Main {
             // Supprimer user1 de la table
             String deleteUserSQL = "DELETE FROM utilisateurs WHERE Nom = 'Lukanda'";
             statement.executeUpdate(deleteUserSQL);
+            
             System.out.println("Utilisateur 'utilisateur  Lukanda ' supprimé avec succès !");
             
         } catch (ClassNotFoundException e) {
